@@ -3,7 +3,7 @@ import imgCoursel1 from '../../assets/img/hbo.jpeg'
 import imgCoursel2 from '../../assets/img/prime.jpeg'
 import imgCoursel3 from '../../assets/img/netflix.jpeg'
 import {Col, Container, Row} from "react-bootstrap";
-import CardServices from "../CardServices";
+import CardServices from "./CardServices";
 
 export default function Services() {
     const servicesArray = [
@@ -40,7 +40,7 @@ export default function Services() {
                             eget nibh sapien. Suspendisse potenti. Sed non suscipit massa, ut lacinia neque.
                             Pellentesque porta velit sapien, eget condimentum velit rutrum vitae.
                         </h4>
-                        <Row xs={12} md={3} className='g-4 mt-4'>
+                        <Row xs={1} md={3} className='g-4 mt-4'>
                             {servicesArray.map((service, index) => (
                                 <CardServices service={service} key={index}/>
                             ))}
