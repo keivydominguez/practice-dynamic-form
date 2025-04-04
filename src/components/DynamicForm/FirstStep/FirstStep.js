@@ -1,6 +1,7 @@
 import {Container, Row} from "react-bootstrap";
 import {useState} from "react";
 import CardFruit from "./CardFruit";
+import './FirstStep.css'
 
 export const fruits = [
     {
