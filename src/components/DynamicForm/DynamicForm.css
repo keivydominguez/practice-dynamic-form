@@ -9,7 +9,7 @@
 
 .dynamic-form h2 {
     display: inline;
-    padding: 5px;
+    padding-right: 5px;
     background-image: linear-gradient(
             108deg,
             #b16cea 8%,
@@ -45,7 +45,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 678px) {
     .dynamic-form .content-dynamic-form {
         min-width: 100%;
         height: 100%;
